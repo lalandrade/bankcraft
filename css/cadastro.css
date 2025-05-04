@@ -71,7 +71,7 @@ body {
 .Nome {
     width: 100%;
     height: 50px;
-    border-radius: 5px;
+    border-radius: 15px;
     border: none;
     padding-left: 10px;
     margin-bottom: 20px;
@@ -80,6 +80,7 @@ body {
     color: #000000;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     margin-bottom: 30px;
+    padding-top: 10px;
 
 }
 
@@ -87,7 +88,7 @@ body {
 .email {
     width: 100%;
     height: 50px;
-    border-radius: 5px;
+    border-radius: 15px;
     border: none;
     padding-left: 10px;
     margin-bottom: 20px;
@@ -95,13 +96,14 @@ body {
     background-color: #ffffff;
     color: #000000;
     margin-bottom: 30px;
+    padding-top: 10px;
 }
 
 /* Estilo do campo de senha */
 .senha {
     width: 100%;
     height: 50px;
-    border-radius: 5px;
+    border-radius: 15px;
     border: none;
     padding-left: 10px;
     margin-bottom: 20px;
@@ -109,12 +111,13 @@ body {
     background-color: #ffffff;
     color: #000000;
     margin-bottom: 30px;
+    padding-top: 10px;
 }
 
 .senha2 {
     width: 100%;
     height: 50px;
-    border-radius: 5px;
+    border-radius: 15px;
     border: none;
     padding-left: 10px;
     margin-bottom: 20px;
@@ -122,6 +125,7 @@ body {
     background-color: #ffffff;
     color: #000000;
     margin-bottom: 25px;
+    padding-top: 10px;
 }
 
 /* Estilo do campo de confirmar senha */
