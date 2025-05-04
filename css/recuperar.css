@@ -1,0 +1,162 @@
+/* Paleta de cores */
+    /* --grama: #5E7C16;
+    --bau: #8B5A2B;
+    --pedra: #7D7D7D;
+    --diamante: #33C5F0;
+    --areia: #D7C79F; */
+    /* #be7a39 */
+    /* #42adb4 */
+
+    @font-face {
+        font-family: 'Minecraftia';
+        src: url('/fonte/Minecraftia-Regular.ttf') format('truetype');
+    }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Minecraftia', sans-serif;
+
+}
+body{
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/426/979/811/minecraft-video-games-wallpaper-preview.jpg');
+    background-size: cover;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%; /* ou 100%, se quiser ocupar tudo */
+    max-width: 850px;
+    padding: 70px;
+    margin: 40px auto;
+    background-color: #8B5A2B;
+    border-radius: 50px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        
+}
+
+h1{
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+    
+    
+}
+p{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+    
+}
+
+button{
+    background-color: #5E7C16;
+    color: #ffffff;
+    border: none;
+    padding: 15px 60px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    margin-right: 0px;
+    font-size: 20px;
+}
+button:hover{
+        background-color: #D7C79F;
+        transition: 0.5s;
+        color: #ffffff;
+    
+}
+button span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #ffffff;
+    text-shadow: 0px 0px 4px #000000;
+    padding-top: 10px;
+}
+.button-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10px;
+    margin-bottom: 35px;
+    border: none;
+    padding-top: 40px;
+}
+
+    
+
+.button2{
+    background-color: #5E7C16;
+    color: #ffffff;
+    border: none;
+    padding: 15px 60px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    margin-right: 40px;
+    font-size: 25px;
+    text-decoration: none;
+}
+    
+
+.button2 span{
+    font-size: 20px;
+    color: #ffffff;
+    text-shadow: 0px 0px 4px #000000;
+}
+    
+
+.button2:hover{
+    background-color: #D7C79F;
+    transition: 0.5s;
+    color: #ffffff;
+    
+}
+input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 450px;
+    height: 50px;
+    margin-bottom: 45px;
+    border-radius: 15px;
+    border: none;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-left: 15px;
+    
+}
+.scale-up-center3 {
+    animation: scale-up-center 0.5s ease-out both;
+}
+
+@keyframes scale-up-center {
+    0% {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+
+    200% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}

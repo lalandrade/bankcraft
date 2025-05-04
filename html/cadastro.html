@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="/css/cadastro.css">
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+</head>
+<link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+
+<body class="scale-up-center">
+    <div class="container">
+        <h1 class="cadastro">Cadastro</h1>
+        <div class="form-box">
+
+            <!-- Usuário -->
+            <input class="Nome" type="text" id="login-user" placeholder="Nome" required>
+
+            <!-- Email -->
+            <input class="email" type="email" id="login-user" placeholder="Email" required>
+            
+            <!-- Senha -->
+            <input class="senha" type="password" id="login-password" placeholder="Senha" required>
+            
+            <!-- Confirmar Senha -->
+            <input class="senha2" type="password" id="login-password" placeholder="Confirme a senha" required>
+
+            <!-- Botão -->
+            <div class="button-grupo">
+                <div class="button-box">
+                    <a href="login.html" class="voltar"><span>Voltar</span></a>
+                    <button class="cadastrar-button" onclick="cadastrar('menu.html')"><span>Cadastrar</span></button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+<script src="/javascript/cadastro.js"></script>
+</html>
