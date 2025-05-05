@@ -36,7 +36,7 @@ body{
         flex-direction: column;
         width: 100%; /* ou 100%, se quiser ocupar tudo */
         max-width: 550px;
-        padding: 70px;
+        padding: 50px;
         margin: 40px auto;
         background-color: #8B5A2B;
         border-radius: 50px;
@@ -72,9 +72,8 @@ button{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     transition: all 0.3s ease-in-out;
     cursor: pointer;
-   
     font-size: 15px;
-    
+    margin-bottom: 5%;
 }
 
 button span{

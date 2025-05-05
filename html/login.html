@@ -26,16 +26,17 @@
 
     <h1 class="Login">Login</h1>
     <div>
-
+      <form id="login-form" onsubmit="return validarLogin()">
       <!-- Usuário -->
-      <input type="text" id="login-user" placeholder="E-mail" />
+      <input type="email" id="login-user" placeholder="E-mail" />
 
       <!-- Senha -->
       <input type="password" id="login-password" placeholder="Senha" />
 
       <!-- Botão -->
-      <button class="button1" onclick="window.location.href='menu.html'">Entrar</button>
-
+      <button type="submit" class="button1">Entrar</button>
+    </form>
+      </div>
       <!-- Criar a conta e esqueci minha senha -->
 
       <div class="button-grupo">
